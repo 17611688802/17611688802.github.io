@@ -3,13 +3,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>ruihuaji</title>
+  <title>开发调试 | ruihuaji</title>
   <meta name="author" content="boqi">
+  
+  <meta name="description" content="开发调试">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="开发调试"/>
   <meta property="og:site_name" content="ruihuaji"/>
 
   
@@ -101,7 +103,7 @@
 
 	
 		<div class="page-header page-header-inverse ">		
-			<h1 class="title title-inverse "> </h1>
+			<h1 class="title title-inverse "> 开发调试</h1>
 		</div>		
 	
 
@@ -119,9 +121,19 @@
 
 	<!-- content -->
 	<div class="mypage">		
+	  
+		 <div class="alert alert-success description">
+			<i class="fa fa-info-circle"></i> <p>开发调试</p>
+			
+		 </div> <!-- alert -->
 	  		
 
-	  	  
+	  <p>开发调试工具<br>  ● 查找 Ctrl + P<br>      ○ ：+行号      -定位到具体的行<br>      ○ @+函数      -定位到具体的函数<br>      ○ #+关键字    -匹配到具体的关键字<br>  ● 命令面板Ctrl + Shift + P<br>  ● 多个选择Ctrl + D，Ctrl + K<br>      ○ Alt+F3选中多个<br>      ○ Ctrl + Shift + L选中多行</p>
+<p>常用插件<br>Package Control-管理工具<br>Emmet-编辑HTML和CSS代码<br>DocBlockr-产生函数的注释<br>SideBarEnhancements-右键菜单增强工具<br>Terminal-命令行终端</p>
+<p>SublimeCodeIntel-一个代码提示和补全插件<br>Alignment-代码对齐，Ctrl+Alt+A<br>MarkDown Editing-，<br>安装</p>
+<p>View-&gt;Show Console 代码<br>import urllib.request,os,hashlib; h = ‘df21e130d211cfc94d9b0905775a7c0f’ + ‘1e3d39e33b79698005270310898eea76’; pf = ‘Package Control.sublime-package’; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( ‘<a href="http://packagecontrol.io/" target="_blank" rel="noopener">http://packagecontrol.io/</a>‘ + pf.replace(‘ ‘, ‘%20’)).read(); dh = hashlib.sha256(by).hexdigest(); print(‘Error validating download (got %s instead of %s), please try manual install’ % (dh, h)) if dh != h else open(os.path.join( ipp, pf), ‘wb’ ).write(by)</p>
+<p>命令面板-&gt;pci</p>
+	  
 	</div>
 
 	<div>
@@ -130,13 +142,13 @@
 <ul class="pagination">
 	 
 				
-    	<li class="prev"><a href="/2017/12/01/2017.06.06 李笑来--区块链世界简明生存指南/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+    	<li class="prev"><a href="/2017/12/01/我的第一篇文章/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
   		
 
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-          <li class="next disabled"><a>Next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		   <li class="next"><a href="/2017/12/01/前端整理/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
@@ -186,7 +198,7 @@
 		   no_comment: "No comments yet. Press the button and go to comment now!",
 		   go_to_comment: "Go to comment",
 		   no_issue: "no_issue",
-		   issue_title: "",
+		   issue_title: "开发调试",
 		   issue_id: "",
 		   btn_class: "btn btn-primary",
 		   comments_target: "#comment-thread",
@@ -213,12 +225,36 @@
 
 	<!-- categories -->
     
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/Sublime-Text3/">Sublime Text3<span>1</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
 
 	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/Sublime-Text3/">Sublime Text3<span>1</span></a></li>
+    </ul>
+	</div>
 	
 
 	<!-- toc -->
 	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			
+		</div>
 	
 	</div>
 	

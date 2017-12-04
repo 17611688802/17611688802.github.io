@@ -3,13 +3,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>ruihuaji</title>
+  <title>04.和方骥一起学Excel | ruihuaji</title>
   <meta name="author" content="boqi">
+  
+  <meta name="description" content="04.和方骥一起学Excel">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="04.和方骥一起学Excel"/>
   <meta property="og:site_name" content="ruihuaji"/>
 
   
@@ -101,7 +103,7 @@
 
 	
 		<div class="page-header page-header-inverse ">		
-			<h1 class="title title-inverse "> </h1>
+			<h1 class="title title-inverse "> 04.和方骥一起学Excel</h1>
 		</div>		
 	
 
@@ -119,9 +121,31 @@
 
 	<!-- content -->
 	<div class="mypage">		
+	  
+		 <div class="alert alert-success description">
+			<i class="fa fa-info-circle"></i> <p>04.和方骥一起学Excel</p>
+			
+		 </div> <!-- alert -->
 	  		
 
-	  	  
+	  <p>3、数据快速统计<br>  ● 快速汇总<br>开始选项卡-&gt;自动求和按钮<br>或使用快捷键：Alt + +=</p>
+<p>  ● 分类筛选汇总</p>
+<p>  ● 切换统计方式<br>5、信息的快速查询<br>  ● 信息查询<br>=VLOOKUP(I2,A:F,4,0)<br>I2-查找的单号<br>A:F-A列到F列，整个区域中去查找，其中A列是快递单号<br>4-发件日期是第4列<br>0-精确查找</p>
+<p>=VLOOKUP(C2,A:B,2,0)<br>  ● 参数匹配</p>
+<p>  ● 跨表查询<br>=VLOOKUP(I2,已签收的快递单！A:F,4,0)<br>已签收的快递单！A:F-另一个表中查询，名称后用！符号作为标记<br>  ● 多条件查询<br>10、强大的函数公式<br>  ● 逻辑函数<br>=IF(B2=”经理”,500,300)<br>B2=”经理”判断B2单元格是不是经理<br>500-如果是经理结果为500<br>300-其他则得到300</p>
+<p>  ● 统计函数<br>=COUNTA(B2:B9)<br>-计算B2:B9单元格范围内空白单元格以外的个数</p>
+<p>=COUNTA(A1:A10)<br>统计范围内多少个单元格不为空<br>=COUNT(A1:A10)<br>统计范围内多少个单元格是数值<br>=COUNTBLANK(A1:A10)<br>统计范围内多少个单元格是空的<br>=AVERAGE(A1:A10)<br>统计范围内数值的平均数<br>  ● 日期函数<br>=2014-YEAR(B2)<br>2014-用户2014年减去入职的年份得到总的工作年限<br>YEAR(B2)-用year函数得到B2日期的年份数字</p>
+<p>  ● 数学函数<br>=INT(B8)<br>-对B8单元格取整运算舍去小数位仅保留整数<br>=ROUND(C79,2)<br>-对C79单元格保留指定小数位数，采用四舍五入方式进行取舍运算，保留两位小数</p>
+<p>  ● 文本函数<br>=LEFT(B2,3)<br>-对B2单元格取左侧指定数量字符<br>-取左侧3个字符</p>
+<p>假设A1中的内容：ABCDE<br>=LEFT(A1,3)<br>-左边3个字符：ABC<br>=RIGHT(A1,3)<br>-右边3个字符：CDE<br>=MID(A1,2,3)<br>-第2个开始的3个字符：BCD<br>=LEN(A1)<br>-字符总个数</p>
+<p>11、公式的相关知识<br>  ● 相对引用<br>=B2<em>0.9<br>  ● 绝对引用<br>=B2</em>$F$1<br>-在列表F和行号1的前面都加上了一个￥符号，表示对F1单元格的绝对引用</p>
+<p>  ● 综合运用<br>=B2/SUM($B$2:$b$7)<br>-对B2单元格采取了相对引用，求和区域使用绝对引用，确保总数不变</p>
+<p>=VLOOKUP(G2,$A$1:$D$21,4,0)</p>
+<p>=$B3*C$2<br>-$B3表示对列表B绝对引用，而其中行号3仍为相对引用<br>-C$2表示对行号2绝对引用，而其中列表C仍为相对引用</p>
+<p>12、日期和时间处理<br>  ● 日期差<br>  ● NETWORKDAYS<br>=NETWORKDAYS(B2,C2)<br>-通常起始日期早于结束日期，如果起始日期晚于结束日期，结果会返回一个负数<br>  ● NETWORKDAYS.INTL<br>=NETWORKDAYS.INTL(B2,C2,11)<br>1-周6/7<br>11-周7<br>12-周1<br>  ● WORKDAY<br>  ● WEEKDAY<br>=B2-WEEKDAY(B2,2)+8</p>
+<p>1-则周日到周六分别返回数字1~7<br>2-则周一到周日分别返回数字1~7<br>3-则周一到周日分别返回数子0~6<br>详解：2014年7月1日是星期二，WEEKDAY函数返回数字2，用该日期减去2天，则得到7月1日上周日的日期6月29日，再加8天，最终得到下周一的日期。</p>
+<p>  ● DATEDIF<br>=DATEDIF(B2,TODAY(),”Y”)<br>B2-查询的起始日期，这里为出生日期<br>TODAY()-TODAY函数返回系统当前日期<br>Y-相隔多少年<br>M-相隔多少月<br>D-相隔多少天</p>
+	  
 	</div>
 
 	<div>
@@ -129,14 +153,14 @@
 	<div class="pagination">
 <ul class="pagination">
 	 
-				
-    	<li class="prev"><a href="/2017/12/01/2017.06.06 李笑来--区块链世界简明生存指南/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
-  		
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+        
 
         <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
 		
-          <li class="next disabled"><a>Next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		   <li class="next"><a href="/2017/12/02/测试/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
 	
 </ul>
@@ -186,7 +210,7 @@
 		   no_comment: "No comments yet. Press the button and go to comment now!",
 		   go_to_comment: "Go to comment",
 		   no_issue: "no_issue",
-		   issue_title: "",
+		   issue_title: "04.和方骥一起学Excel",
 		   issue_id: "",
 		   btn_class: "btn btn-primary",
 		   comments_target: "#comment-thread",
@@ -207,18 +231,42 @@
 	
 	<div class="meta-widget">
 	<i class="fa fa-clock-o"></i>
-	2017-12-01 
+	2017-12-04 
 	</div>
 	
 
 	<!-- categories -->
     
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/categories/办公工具/">办公工具<span>2</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
 
 	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/04-和方骥一起学Excel/">04.和方骥一起学Excel<span>1</span></a></li>
+    </ul>
+	</div>
 	
 
 	<!-- toc -->
 	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			
+		</div>
 	
 	</div>
 	

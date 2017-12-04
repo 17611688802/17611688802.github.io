@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>北京的一年</title>
-  <meta name="author" content="周向前">
+  <title>ruihuaji</title>
+  <meta name="author" content="boqi">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-  <meta property="og:site_name" content="北京的一年"/>
+  <meta property="og:site_name" content="ruihuaji"/>
 
   
     <meta property="og:image" content=""/>
@@ -60,7 +60,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-       <a class="navbar-brand" href="/">北京的一年</a>
+       <a class="navbar-brand" href="/">ruihuaji</a>
       <div class="collapse navbar-collapse nav-menu">
 		<ul class="nav navbar-nav">
 		  
@@ -97,7 +97,7 @@
   <div class="container">
   	<div class="content">
     	 <div class="page-header page-header-inverse ">
-  <h1 class="title title-inverse ">北京的一年</h1>
+  <h1 class="title title-inverse ">ruihuaji</h1>
 </div>
 
 <div class="row page">
@@ -121,6 +121,34 @@
 		
             
 		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
+            
+		
         
         <!-- render other articles -->
         
@@ -129,8 +157,8 @@
 	
 	<!-- display as entry -->	
 		<h3 class="title">
-			<div class="date"> 2017-12-01 </div>
-			<div class="article-title"><a href="/2017/12/01/我的第一篇文章/" title="Introduce tag plugins in freemind.">我的第一篇文章</a></div>						
+			<div class="date"> 2017-12-04 </div>
+			<div class="article-title"><a href="/2017/12/04/04.和方骥一起学Excel/" title="04.和方骥一起学Excel">04.和方骥一起学Excel</a></div>						
 		</h3>
 	
 
@@ -139,15 +167,55 @@
   <div class="row">
 	
            
-              <div class="thumbnail"><a href="/2017/12/01/我的第一篇文章/"><img src="images/tag-plugins/plugins.jpg" alt="我的第一篇文章"  class="nofancybox"></a>
+              <div class="thumbnail"><a href="/2017/12/04/04.和方骥一起学Excel/"><img src="images/tag-plugins/plugins.jpg" alt="04.和方骥一起学Excel"  class="nofancybox"></a>
            
 		</div>
+	
+	
+		<p>3、数据快速统计<br>  ● 快速汇总<br>开始选项卡-&gt;自动求和按钮<br>或使用快捷键：Alt + +=</p>
+<p>  ● 分类筛选汇总</p>
+<p>  ● 切换统计方式<br>5、信息的快速查询<br>  ● 信息查询<br>=VLOOKUP(I2,A:F,4,0)<br>I2-查找的单号<br>A:F-A列到F列，整个区域中去查找，其中A列是快递单号<br>4-发件日期是第4列<br>0-精确查找</p>
+<p>=VLOOKUP(C2,A:B,2,0)<br>  ● 参数匹配</p>
+<p>  ● 跨表查询<br>=VLOOKUP(I2,已签收的快递单！A:F,4,0)<br>已签收的快递单！A:F-另一个表中查询，名称后用！符号作为标记<br>  ● 多条件查询<br>10、强大的函数公式<br>  ● 逻辑函数<br>=IF(B2=”经理”,500,300)<br>B2=”经理”判断B2单元格是不是经理<br>500-如果是经理结果为500<br>300-其他则得到300</p>
+<p>  ● 统计函数<br>=COUNTA(B2:B9)<br>-计算B2:B9单元格范围内空白单元格以外的个数</p>
+<p>=COUNTA(A1:A10)<br>统计范围内多少个单元格不为空<br>=COUNT(A1:A10)<br>统计范围内多少个单元格是数值<br>=COUNTBLANK(A1:A10)<br>统计范围内多少个单元格是空的<br>=AVERAGE(A1:A10)<br>统计范围内数值的平均数<br>  ● 日期函数<br>=2014-YEAR(B2)<br>2014-用户2014年减去入职的年份得到总的工作年限<br>YEAR(B2)-用year函数得到B2日期的年份数字</p>
+<p>  ● 数学函数<br>=INT(B8)<br>-对B8单元格取整运算舍去小数位仅保留整数<br>=ROUND(C79,2)<br>-对C79单元格保留指定小数位数，采用四舍五入方式进行取舍运算，保留两位小数</p>
+<p>  ● 文本函数<br>=LEFT(B2,3)<br>-对B2单元格取左侧指定数量字符<br>-取左侧3个字符</p>
+<p>假设A1中的内容：ABCDE<br>=LEFT(A1,3)<br>-左边3个字符：ABC<br>=RIGHT(A1,3)<br>-右边3个字符：CDE<br>=MID(A1,2,3)<br>-第2个开始的3个字符：BCD<br>=LEN(A1)<br>-字符总个数</p>
+<p>11、公式的相关知识<br>  ● 相对引用<br>=B2<em>0.9<br>  ● 绝对引用<br>=B2</em>$F$1<br>-在列表F和行号1的前面都加上了一个￥符号，表示对F1单元格的绝对引用</p>
+<p>  ● 综合运用<br>=B2/SUM($B$2:$b$7)<br>-对B2单元格采取了相对引用，求和区域使用绝对引用，确保总数不变</p>
+<p>=VLOOKUP(G2,$A$1:$D$21,4,0)</p>
+<p>=$B3*C$2<br>-$B3表示对列表B绝对引用，而其中行号3仍为相对引用<br>-C$2表示对行号2绝对引用，而其中列表C仍为相对引用</p>
+<p>12、日期和时间处理<br>  ● 日期差<br>  ● NETWORKDAYS<br>=NETWORKDAYS(B2,C2)<br>-通常起始日期早于结束日期，如果起始日期晚于结束日期，结果会返回一个负数<br>  ● NETWORKDAYS.INTL<br>=NETWORKDAYS.INTL(B2,C2,11)<br>1-周6/7<br>11-周7<br>12-周1<br>  ● WORKDAY<br>  ● WEEKDAY<br>=B2-WEEKDAY(B2,2)+8</p>
+<p>1-则周日到周六分别返回数字1~7<br>2-则周一到周日分别返回数字1~7<br>3-则周一到周日分别返回数子0~6<br>详解：2014年7月1日是星期二，WEEKDAY函数返回数字2，用该日期减去2天，则得到7月1日上周日的日期6月29日，再加8天，最终得到下周一的日期。</p>
+<p>  ● DATEDIF<br>=DATEDIF(B2,TODAY(),”Y”)<br>B2-查询的起始日期，这里为出生日期<br>TODAY()-TODAY函数返回系统当前日期<br>Y-相隔多少年<br>M-相隔多少月<br>D-相隔多少天</p>
+
+	
+	</div>
+  <a type="button" href="/2017/12/04/04.和方骥一起学Excel/#more" class="btn btn-default more">Read More</a>
+</div>
+
+           
+		
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-12-02 </div>
+			<div class="article-title"><a href="/2017/12/02/测试/" ></a></div>						
+		</h3>
+	
+
+
+			  <div class="entry">
+  <div class="row">
 	
 	
 		
 	
 	</div>
-  <a type="button" href="/2017/12/01/我的第一篇文章/#more" class="btn btn-default more">Leia Mais</a>
+  <a type="button" href="/2017/12/02/测试/#more" class="btn btn-default more">Read More</a>
 </div>
 
            
@@ -158,7 +226,7 @@
 	<!-- display as entry -->	
 		<h3 class="title">
 			<div class="date"> 2017-12-01 </div>
-			<div class="article-title"><a href="/2017/12/01/hello-world/" >Hello World</a></div>						
+			<div class="article-title"><a href="/2017/12/01/唔该晒/" title="唔该晒">唔该晒</a></div>						
 		</h3>
 	
 
@@ -167,19 +235,264 @@
   <div class="row">
 	
 	
-		<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+		<p>一、<br>1、谢谢-唔该（晒）</p>
+<p>二、自我介绍<br>1、是-hai<br>2、在-haii<br>3、哪里-边度<br>4、现在-而家/家下 yi ga/ga ha<br>5、什么-咩 mei<br>6、什么东西-me ye<br>7、上学-返学 fanhou<br>     上班-返工 fangong<br>三、假日<br>1、<br>2、搭巴士（bus）-dabasei<br>搭的士-dataigeisei<br>坐飞机-dafeigei<br>3、看风景-taifengeng<br>4、听音乐-<br>5、相机-DAMERA/shanggei<br>影像-yingsou<br>6、自拍-zeipa<br>上镜-shougeig<br>7、吃东西-seiye</p>
+<p>我和朋友去旅游-我同bi friends huilvyou</p>
+<p>四、衣食住行<br>1、穿衣服-着衫 zhuosang<br>脱衣服-除衫 chuisang<br>买衣服-买衫 maisang<br>裤子-裤 fu<br>裙-kuan<br>围巾-weigen</p>
+<p>2、吃粥-食粥 seizhou<br>喝汤-饮汤 yangtang<br>炒菜-caosong<br>煮菜-jvsong<br>青菜-qingchou<br>水果-shuiguo</p>
+<p>我想-nongsang<br>3、家-屋企 wukei<br>我住在哪里-nongjvhai<br>我搬家了-nongbanzouou<br>4、开车-揸车 zhachi<br>过马路-guomalou<br>走路-行路 hanglou<br>小心过马路-xingsangguomalou<br>注意安全-zvyiangquan<br>看车-taizhudichi<br>五、俗语<br>1、招摇撞骗-偷呃拐骗 tounagguaipian<br>2、看起来相貌堂堂-好人好姐 haorenghaozei<br>3、拍马屁-擦鞋 chahai<br>4、再背后说别人呢坏话-笃（人地）背脊 doubeizai<br>5、（忙的）不可开交-踢晒脚 teisaigei<br>6、临时爽约-放飞机 fangfeigei<br>7、一团糟乱-一guang泡 yeguangpou<br>8、背黑锅-食死猫 seisheimao<br>9、捡便宜-执死鸡 zeseigei<br>10、恩将仇报-食碗面反碗底 seiwanmianfanwandei<br>11、一切都终于解决了-一天都光晒 yetiandouguangsai<br>12、出格-出位 cuowei<br>13、谨慎长久-小心驶得万年船 xingsangseidemannianchui</p>
 
 	
 	</div>
-  <a type="button" href="/2017/12/01/hello-world/#more" class="btn btn-default more">Leia Mais</a>
+  <a type="button" href="/2017/12/01/唔该晒/#more" class="btn btn-default more">Read More</a>
+</div>
+
+           
+		
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-12-01 </div>
+			<div class="article-title"><a href="/2017/12/01/06.趣学PPT：从0到PPT大神/" title="06.趣学PPT：从0到PPT大神">06.趣学PPT：从0到PPT大神</a></div>						
+		</h3>
+	
+
+
+			  <div class="entry">
+  <div class="row">
+	
+           
+              <div class="thumbnail"><a href="/2017/12/01/06.趣学PPT：从0到PPT大神/"><img src="images/tag-plugins/plugins.jpg" alt="06.趣学PPT：从0到PPT大神"  class="nofancybox"></a>
+           
+		</div>
+	
+	
+		<p>1.操作篇：咦，这么简单就入门了<br>2.文字和字体篇：为啥我的文字这么丑<br>qiuziti.com<br>Levibrush</p>
+<p>3.形状篇：妙用形状按钮，让你一秒变PPT大神<br>4.图片与配色篇：对比图片和配色的误区<br>百度识图<br>sc.chinaz.com<br>pixabay.com<br>www.exels.com<br>wallpaperswide.com</p>
+<p>少、看得见<br>5.排版篇：攻克图文排版难点不是梦_201611011656<br>对比-字号加粗颜色长短<br>对齐<br>聚拢<br>重复<br>封面</p>
+<p>www.iconfont.cn<br>阿里巴巴矢量图标库<br>6.动画篇：动次打次，让你的PPT动起来.mp4.baiduyun.p<br>7.案例篇：前后对比，告别屌丝气质.mp4.baiduyun.p<br>8.大师篇：私藏秘籍，满满都是干货_.mp4.baiduyun.p</p>
+
+	
+	</div>
+  <a type="button" href="/2017/12/01/06.趣学PPT：从0到PPT大神/#more" class="btn btn-default more">Read More</a>
+</div>
+
+           
+		
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-12-01 </div>
+			<div class="article-title"><a href="/2017/12/01/完美安装原装纯净windows10系统/" title="用微软自带工具制作U盘启动盘，完美安装原装纯净windows10系统">完美安装原装纯净windows10系统</a></div>						
+		</h3>
+	
+
+
+			  <div class="entry">
+  <div class="row">
+	
+           
+              <div class="thumbnail"><a href="/2017/12/01/完美安装原装纯净windows10系统/"><img src="images/tag-plugins/plugins.jpg" alt="完美安装原装纯净windows10系统"  class="nofancybox"></a>
+           
+		</div>
+	
+	
+		<p>用微软自带工具制作U盘启动盘，完美安装原装纯净windows10系统<br>原厂工具的好处：100%纯净；可以下载ISO，然后随意刻录成U盘启动盘。<br>准备工具：电脑，8G以上U盘，可上网环境。<br>首先，用百度搜索windows 10，找到官网。</p>
+<p>然后点击，进入官网，选立即下载工具。下载的工具名称叫：MediaCreationTool。</p>
+<p>双击这个工具，跳出如下界面：</p>
+<p>等几秒钟，就会让你确认，点接受就好。</p>
+<p>然后再选：为另一台电脑创建安装介质。</p>
+<p>选择你要安装的版本，我选的是32位的，毕竟电脑太老了。如果是新电脑或近两年的电脑，基本上都是选64位的。</p>
+<p>点下一步，会跳出另一个界面，确认就好。安装之后我们再管激活的事。</p>
+<p>点下一步，系统会让你选择是直接做成U盘启动盘，还是下载ISO自己另行刻录。因为我是想要留个ISO盘以后用，所以我选了ISO，如果只是为了新装电脑的同学，直接选U盘刻录就好。（如果选U盘刻录，下一步就会是让你格式化U盘了。请务必保证U盘有4G以上，最好是8G以上的空间）。</p>
+<p>下一步，选择保存路径，工具就会开始下载或刻录。这时要有点耐心了，可能得有几十分钟到一个小时不等吧。这时可以去干点别的。</p>
+<p>下载完成之后，还不是完整的ISO文件，还要再继续选择验证，创建windows10介质。这个介质其实就是完整的ISO光盘包。</p>
+<p>等到最后，选完成就可以了。这时你就下载得到了一张完整的，可以用来刻录的ISO光盘镜像。<br>既然是临时使用，我选择的是UltraISO最新版的试用（<a href="https://cn.ultraiso.net/xiazai.html）。在文件-打开中，选择刚才下载好的ISO文件：" target="_blank" rel="noopener">https://cn.ultraiso.net/xiazai.html）。在文件-打开中，选择刚才下载好的ISO文件：</a></p>
+<p>再选择启动-写入光盘，将U盘格式化之后，点击写入。我的经验是默认就好：</p>
+<p>因为是USB3.0，所以几分钟就好了。U盘名字自动变成了ESD-ISO。我们直接用这个U盘去安装就好了。</p>
+<p>后面的安装过程就比较简单。首先插入U盘，重启电脑，然后根据 电脑不同，按F2或F10或其它（自己查电脑手册或百度）进入Bios，在Boot选项中，将首选启动项改成USB-HDD，再按F10保存退出，就会进入到正式的安装界面了。<br>基本上就是点下一步，然后设置国家，语言之类的。只是记得安装完之后再重启的时候，要再按一次F2，进入Bios，将boot改回硬盘启动。<br>最后，用神器KMSpico激活，就得到了完美的原装纯净windows10系统了。</p>
+<p>无法在驱动器0分区上安装windows解决方法<br>1、在当前安装界面按住Shift+F10调出命令提示符窗口；<br>2、输入diskpart，按回车执行；<br>3、进入DISKPART命令模式，输入list disk回车，列出当前磁盘信息；<br>4、要转换磁盘0格式，则输入select disk 0回车，输入clean，删除磁盘分区；<br>5、输入convert mbr，回车，将磁盘转换为MBR，输入convert gpt则转为GPT；<br>6、最后输入exit回车退出命令提示符，返回安装界面继续安装系统。</p>
+<p>xcopy c:/<em>.</em> d/<br>复制到c盘内容到d盘</p>
+
+	
+	</div>
+  <a type="button" href="/2017/12/01/完美安装原装纯净windows10系统/#more" class="btn btn-default more">Read More</a>
+</div>
+
+           
+		
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-12-01 </div>
+			<div class="article-title"><a href="/2017/12/01/MOBA过往/" title="Introduce tag plugins in freemind.">MOBA过往</a></div>						
+		</h3>
+	
+
+
+			  <div class="entry">
+  <div class="row">
+	
+           
+              <div class="thumbnail"><a href="/2017/12/01/MOBA过往/"><img src="images/tag-plugins/plugins.jpg" alt="MOBA过往"  class="nofancybox"></a>
+           
+		</div>
+	
+	
+		<p>MOBA Multiplayer Online Battle Arena Games-多人在线战术竞技游戏<br>RTS: real time strategy,把此类游戏关键的实时和战略直接交待了<br>FPS/TPS: 第一/第三人称射击游戏,顾名思义<br>RPG: 角色扮演(有人说这个宽泛,说很难找到一个游戏不是扮演一个角色,这个真是笑了,你玩RTS游戏的时候扮演哪个角色? 你玩DotA的时候那叫扮演角色吗,那叫选择并使用某个角色? 你控制的人物在你的游戏生命中是持续的,按照游戏术语那是成长的,那才叫扮演角色)<br>Action + XX比如ARPG:强调动作的RPG游戏</p>
+<p>作者：知乎用户<br>链接：<a href="https://www.zhihu.com/question/28158990/answer/40144212" target="_blank" rel="noopener">https://www.zhihu.com/question/28158990/answer/40144212</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<p>这个啊，MOBA本身就是一个很宽泛的概念，也是一个很早就有的概念，但是由于过于宽泛，所以那些厂商给自己游戏定位时更多的都是用RTS,FPS,RPG这一类。<br>现在MOBA这个概念这么火的缘由要牵扯到LOL跟DOTA之间的过往。DOTA ALLSTAR的第二代主力开发者羊刀跟办理DOTA社区的铅笔龙想通过卖英雄这一类的方式从DOTA赚钱，但是第三代主力开发冰蛙不愿意。于是羊刀跟铅笔龙合伙去做了LOL，同时锁了DOTA地图，铅笔龙在DOTA网站删除DOTA相关的资料并诋毁冰蛙还在网站上宣传LOL。LOL在美服一度做不下去近乎倒闭，后来给腾讯收购了96%还是98%的股份，最后靠腾讯的资金跟QQ用户群盘活了LOL并且运营成为全球玩家最多的类DOTA游戏，但是包括腾讯他们不甘心被称为类DOTA游戏，于是开始炒作MOBA游戏这一概念，妄图完全脱离DOTA的影响，所以类DOTA或者ARTS的游戏在腾讯的强大运营能力之下成了MOBA类游戏了，但其实就是RTS下的一个子类。<br>再补充一点，羊刀已经被T出拳头公司</p>
+<p>作者：当啷<br>链接：<a href="https://www.zhihu.com/question/28158990/answer/39641997" target="_blank" rel="noopener">https://www.zhihu.com/question/28158990/answer/39641997</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<p>火焰纹章</p>
+<p>可谓是任你风吹雨打我自岿然不动，<br>《列王的纷争》</p>
+<p>斗破苍穹-天蚕土豆<br>盗墓笔记-南派三叔<br>鬼吹灯-天下霸唱<br>破碎银河系</p>
+<p>Sam Mathews</p>
+
+	
+	</div>
+  <a type="button" href="/2017/12/01/MOBA过往/#more" class="btn btn-default more">Read More</a>
+</div>
+
+           
+		
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-12-01 </div>
+			<div class="article-title"><a href="/2017/12/01/CSS3/" title="CSS3">CSS3</a></div>						
+		</h3>
+	
+
+
+			  <div class="entry">
+  <div class="row">
+	
+           
+              <div class="thumbnail"><a href="/2017/12/01/CSS3/"><img src="images/tag-plugins/plugins.jpg" alt="CSS3"  class="nofancybox"></a>
+           
+		</div>
+	
+	
+		<p>语法<br>浏览器私有属性<br>.pic {<br>-webkit-transform:rotate(-3deg);chrome,safari<br>-moz-transform:rotate(-3deg);firefox<br>-ms-transform:rotate(-3deg);IE<br>-o-transform:rotate(-3deg);opera</p>
+<p>transform:rotate(-3deg);<br>}</p>
+<p>CSS选择器<br>  ● tag{}<br>  ● .className{}<br>  ● #id{}<br>  ● *{}<br>  ● [att]{}<br>  ● :link{}</p>
+<p>  ● img[src$=jpg]{}<br>  ● #banner:hover{}</p>
+<p>display:block<br>  ● 默认宽度为父元素宽带<br>  ● 可设置宽高<br>  ● 换行显示<br>默认display：block元素-div，p，h1-h6，ul，form，…<br>display:inline<br>  ● 默认宽度为内容宽度<br>  ● 不可设置宽高<br>  ● 同行显示<br>默认display：inline元素-span，a，label，cite，em，…<br>display：inline-block<br>  ● 默认宽度为内容宽度<br>  ● 可设置<br>  ● 宽高<br>  ● 同行显示<br>  ● 整块换行</p>
+<p>position:relative<br>  ● 仍在文档流中<br>  ● 参照物为元素本身<br>position：absolute<br>  ● 默认宽度为内容宽度<br>  ● 脱离文档流<br>  ● 参照物为第一个定位祖先/根元素<br>position：fixed<br>  ● 默认宽度为内容宽度<br>  ● 脱离文档流<br>  ● 参照物为视窗</p>
+<p>float<br>  ● 默认宽度为内容宽度<br>  ● 脱离文档流<br>  ● 向指定方向一直移动<br>  ●<br>  ● float的元素在同一文档流<br>  ● float元素半脱离文档流（对内容在文档流）<br>  ●<br> clear</p>
+<p>三行水平布局<br>块级元素水平居中<br>布局-居中导</p>
+<p>切图·隐藏文字只留背景</p>
+<p><a href="http://www.jianshu.com/p/3cb5c6f2421c/" target="_blank" rel="noopener">http://www.jianshu.com/p/3cb5c6f2421c/</a></p>
+
+	
+	</div>
+  <a type="button" href="/2017/12/01/CSS3/#more" class="btn btn-default more">Read More</a>
+</div>
+
+           
+		
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-12-01 </div>
+			<div class="article-title"><a href="/2017/12/01/个人清单/" title="一份自己对于信息获取、工具使用和生活习惯的清单">个人清单</a></div>						
+		</h3>
+	
+
+
+			  <div class="entry">
+  <div class="row">
+	
+	
+		<p>几个月前准备整理一份自己对于信息获取、工具使用和生活习惯的清单，一直没有兑现，此刻平静的每天让我终于有时间产出。花费时间在个人技能提升、感情抒发，之前朋友圈团队、产品的17年可能不再会涉及，关于现阶段的生活就不多概述了，整理自己的个人简历信息架构，顺便做了之前没做的工作，理清近半年的得失。（和之前学习微专业一样，会不断跟新、分享）<br>1、技术学习<br>职业技能<br>网易云课堂[网易微专业]</p>
+<p>2、生活分享<br>购物<br>网易严选、网易考拉海购、京东<br>工具<br>Android Studio、Unity、Eclipse、Sublime_text3<br>AxureRP8、MindManager、YNote、Google Chrom、YoudaoDict、Adobe、Git-2.12.2.2、node-v7.10.0<br>看电影听音乐<br>网易云音乐<br>CGV-漫威系列<br>格瓦拉<br>游戏<br>LOL<br>主机游戏等<br>3、获取信息<br>技术学习<br>掘金 - juejin.im - 高质量的技术社区-<a href="https://juejin.im/" target="_blank" rel="noopener">https://juejin.im/</a><br>Android Developers-<a href="https://developer.android.google.cn/index.html" target="_blank" rel="noopener">https://developer.android.google.cn/index.html</a><br>Android Studio 中文社区(官网) -Android App开发工具集-Android SDK/JDK/ADT/Gradle-2.0/2.2下载/安装/教程-<a href="http://www.android-studio.org/index.php" target="_blank" rel="noopener">http://www.android-studio.org/index.php</a><br>Material Design - Material Design 中文版-<a href="http://design.1sters.com/#" target="_blank" rel="noopener">http://design.1sters.com/#</a><br>3D Touch - User Interaction - iOS Human Interface Guidelines-<a href="https://developer.apple.com/ios/human-interface-guidelines/interaction/3d-touch/" target="_blank" rel="noopener">https://developer.apple.com/ios/human-interface-guidelines/interaction/3d-touch/</a><br>Stack Overflow-<a href="https://stackoverflow.com/" target="_blank" rel="noopener">https://stackoverflow.com/</a><br>Mobile Design Patterns - Pttrns-<a href="https://pttrns.com/" target="_blank" rel="noopener">https://pttrns.com/</a><br>Git Tutorial - Try Git-<a href="https://try.github.io/levels/1/challenges/1" target="_blank" rel="noopener">https://try.github.io/levels/1/challenges/1</a><br>git - the simple guide - no deep shit!-<a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener">http://rogerdudler.github.io/git-guide/index.zh.html</a><br>JavaScripting.com - The Database of JavaScript Libraries-<a href="https://www.javascripting.com/" target="_blank" rel="noopener">https://www.javascripting.com/</a><br>Microjs: Fantastic Micro-Frameworks and Micro-Libraries for Fun and Profit!-<a href="http://microjs.com/#" target="_blank" rel="noopener">http://microjs.com/#</a></p>
+<p>(46 条消息)怎样使用 GitHub？ - 知乎-<a href="https://www.zhihu.com/question/20070065" target="_blank" rel="noopener">https://www.zhihu.com/question/20070065</a><br>如何优雅地使用Sublime Text3 - 简书-<a href="http://www.jianshu.com/p/3cb5c6f2421c/" target="_blank" rel="noopener">http://www.jianshu.com/p/3cb5c6f2421c/</a></p>
+<p>行业资讯<br>(47 条消息)首页 - 知乎-<a href="https://www.zhihu.com/" target="_blank" rel="noopener">https://www.zhihu.com/</a><br>《财新周刊》-财新网-CAIXIN.COM-<a href="http://weekly.caixin.com/" target="_blank" rel="noopener">http://weekly.caixin.com/</a><br>InfoQ - 促进软件开发领域知识与创新的传播-<a href="http://www.infoq.com/cn/" target="_blank" rel="noopener">http://www.infoq.com/cn/</a><br>IT eBooks - Free Download - Big Library-<a href="http://it-ebooks.info/" target="_blank" rel="noopener">http://it-ebooks.info/</a><br>Inoreader - The content reader for power users who want to save time.-<a href="https://www.inoreader.com/" target="_blank" rel="noopener">https://www.inoreader.com/</a></p>
+<p>数据分析<br>The App Analytics and App Data Industry Standard - App Annie-<a href="https://www.appannie.com/cn/" target="_blank" rel="noopener">https://www.appannie.com/cn/</a><br>GrowingIO 官网－硅谷新一代无埋点用户行为数据分析产品-<a href="https://www.growingio.com" target="_blank" rel="noopener">https://www.growingio.com</a></p>
+<p>实习<br>内推首页-Utips校招-你的名企情报站-<a href="http://job.loveutips.com/" target="_blank" rel="noopener">http://job.loveutips.com/</a><br>实习生_实习生招聘网-实习僧-<a href="http://www.shixiseng.com/" target="_blank" rel="noopener">http://www.shixiseng.com/</a></p>
+<p>其他</p>
+<p>首页-网易考拉海购拉客推广平台-<a href="http://cps.kaola.com" target="_blank" rel="noopener">http://cps.kaola.com</a><br>课程 - YC创业课中文社区-<a href="http://startupclass.club/" target="_blank" rel="noopener">http://startupclass.club/</a></p>
+
+	
+	</div>
+  <a type="button" href="/2017/12/01/个人清单/#more" class="btn btn-default more">Read More</a>
+</div>
+
+           
+		
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-12-01 </div>
+			<div class="article-title"><a href="/2017/12/01/05.和顾建一起学Word /" title="05.和顾建一起学Word">05.和顾建一起学Word</a></div>						
+		</h3>
+	
+
+
+			  <div class="entry">
+  <div class="row">
+	
+           
+              <div class="thumbnail"><a href="/2017/12/01/05.和顾建一起学Word /"><img src="images/tag-plugins/plugins.jpg" alt="05.和顾建一起学Word"  class="nofancybox"></a>
+           
+		</div>
+	
+	
+		<p>S03秘笈：你真的懂Word？<br>1 =rand(a,b)<br>2 快速选择竖向文字-按住Alt键，鼠标向下拖动，选择所需文本<br>3 快速选择相识文本-选中一处红色文本单击【开始】-&gt;【编辑】-&gt;【选择】-&gt;【选择格式相似的文本】<br>4 双击格式刷无限使用，刷爽了按Esc可停<br>5 如何解决微软雅黑字体行距过大-取消勾选对齐到网络即可</p>
+<p>6 使用快捷键，一件去除难看的超链接-选中文字，按组合键Ctrl+Shift+F9<br>7 给方框打个勾-在Wingdings字体下，<br>8 各种货币符号-Shift +4（中文输入状态下，可输出为RMB；英文输入状态下，可输出为美元）<br>9插入欧元-字体选（普通文本）子集选（货币符号）即可找到</p>
+<p>S04自动化：小替换解决大问题<br>S05安全：文档安全我做主<br>S06又快又好的Word表格排版术</p>
+<p>S07各类表格一手玩转</p>
+<p>S08表格疑难杂症集中营<br>S09一页纸简历Word轻松造<br>S10Word挑战信息图式简历<br>S11长文档排版基础篇：让你的段落格式服服帖帖<br>S12长文档排版01：文档页面、封面及页码<br>S13长文档排版02：样式、目录全自动造！<br>S14长文档排版03：自动生成图表编号<br>S15学霸之路：优雅地用Word写论文<br>S16拒绝加班：优雅地用Word排标书<br>S17多图混合排版之道<br>S18让你做出杂志风格的文本<br>S19高效办公大杀器01：文档审阅与合并<br>S20高效办公大杀器02：邮件合并与发布<br>S21高效办公大杀器03：SmartArt图表应用<br>S22高效办公大杀器04：桌签与邀请函<br>S23有一种邮件客户端叫Outlook<br>S24全面搞定公式输入<br>S25复杂流程图与云笔记</p>
+
+	
+	</div>
+  <a type="button" href="/2017/12/01/05.和顾建一起学Word /#more" class="btn btn-default more">Read More</a>
+</div>
+
+           
+		
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-12-01 </div>
+			<div class="article-title"><a href="/2017/12/01/开发工具配置/" title="开发工具配置">开发工具配置</a></div>						
+		</h3>
+	
+
+
+			  <div class="entry">
+  <div class="row">
+	
+	
+		<p>删除回收站图标<br>gpedit.msc<br>找到 “用户配置” — “管理模板” — “桌面” ，<br>找到从桌面删除回收站图标 — 点击已启用</p>
+<p>开发工具：Android Studio + Genymotion + ADT</p>
+<p>JDK的安装与配置<br>    安装<br>        www.oracle.com/technetwork/java/javase/downloads/fre8-downloads-2133155.html<br>    配置环境变量<br>JAVA_HOME   C:\Program Files\Java\jdk1.8.0_121<br>CLASSPATH   %JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;<br>Path    %JAVA_HOME%\bin<br> %JAVA_HOME%\jre\bin<br>JDK是用于 java程序的开发，而jre则是只能运行class而没有编译的功能<br>Tomcat安装<br>    依赖JDK，保证Java已经安装<br>    Tomcat，Windows Installer<br>        <a href="http://tomcat.apache.org/" target="_blank" rel="noopener">http://tomcat.apache.org/</a><br>    配置环境变量<br>CATALINA_HOME:E:\Tomcat 9.0<br>Path:E:\Tomcat 9.0\bin</p>
+<p><a href="http://www.cnblogs.com/saratearing/p/5811866.html" target="_blank" rel="noopener">http://www.cnblogs.com/saratearing/p/5811866.html</a></p>
+<p>Maven安装<br>    依赖JDK，保证Java已经安装<br>    官网<br>        <a href="http://maven.apache.org/" target="_blank" rel="noopener">http://maven.apache.org/</a><br>    配置环境变量<br>        M2_HOME=/path/to/maven/root<br>        PATH=M2_HOME/bin</p>
+<pre><code>国内镜像
+    http://maven.oschina.net/help.html
+</code></pre><p>pom.xml<br>groupID,组织<br>artifactID,项目标识符<br>version，版本<br>packaging，类型，war<br>dependencies，依赖的项目<br>基本命令<br>mvn archetype，generate,使用模板生成项目<br>mvn compile，编译源代码<br>mvn test，单元测试<br>mvn package，打包War<br>mvn deploy，部署<br>mvn site,生成相关的站点，在线文档，清理<br>mvn clean<br>详细帮助<br>mvn help:describe -Dplugin=tomcat7<br>常见命令<br>mvn tomat7:run,启动一个嵌入的Tomcat实例<br>mvn tomcat:deploy<br>mvn tomcat:undeploy</p>
+<p>Lnstagram账号<br>500px</p>
+<p>vim<br>Java官方文档<br>    <a href="http://docs.oracle.com/javase/8/docs/api/overview-summary.html" target="_blank" rel="noopener">http://docs.oracle.com/javase/8/docs/api/overview-summary.html</a></p>
+<p>mvn help:describe -Dplugin=eclipse</p>
+
+	
+	</div>
+  <a type="button" href="/2017/12/01/开发工具配置/#more" class="btn btn-default more">Read More</a>
 </div>
 
            
@@ -193,6 +506,16 @@
 		<div class="pagination">
 <ul class="pagination">
 	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+        
+
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+
+		
+		   <li class="next"> <a href="/page/2/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a> </li>          
+        
+	
 </ul>
 </div>
 
@@ -210,7 +533,7 @@
 			
   <div id="site_search">
    <div class="form-group">
-    <input type="text" id="local-search-input" name="q" results="0" placeholder="Busca" class="st-search-input st-default-search-input form-control"/>
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control"/>
    </div>  
   <div id="local-search-result"></div>
   </div>
@@ -219,10 +542,32 @@
 		
 			
 	<div class="widget">
-		<h4>Categorias</h4>
+		<h4>Categories</h4>
 		<ul class="tag_box inline list-unstyled">
 		
-			<li><a href="/categories/Docs/">Docs<span>1</span></a></li>
+			<li><a href="/categories/CSS3/">CSS3<span>1</span></a></li>
+		
+			<li><a href="/categories/Docs/">Docs<span>2</span></a></li>
+		
+			<li><a href="/categories/Git/">Git<span>1</span></a></li>
+		
+			<li><a href="/categories/PPT/">PPT<span>1</span></a></li>
+		
+			<li><a href="/categories/Sublime-Text3/">Sublime Text3<span>1</span></a></li>
+		
+			<li><a href="/categories/windows10/">windows10<span>1</span></a></li>
+		
+			<li><a href="/categories/前端开发/">前端开发<span>1</span></a></li>
+		
+			<li><a href="/categories/办公工具/">办公工具<span>2</span></a></li>
+		
+			<li><a href="/categories/区块链/">区块链<span>1</span></a></li>
+		
+			<li><a href="/categories/开发工具配置/">开发工具配置<span>1</span></a></li>
+		
+			<li><a href="/categories/游戏/">游戏<span>1</span></a></li>
+		
+			<li><a href="/categories/粤语/">粤语<span>1</span></a></li>
 		
 		</ul>
 	</div>
@@ -233,7 +578,33 @@
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
+			<li><a href="/tags/Sublime-Text3/">Sublime Text3<span>1</span></a></li>
+		
+			<li><a href="/tags/04-和方骥一起学Excel/">04.和方骥一起学Excel<span>1</span></a></li>
+		
 			<li><a href="/tags/plugins/">plugins<span>1</span></a></li>
+		
+			<li><a href="/tags/前端开发/">前端开发<span>1</span></a></li>
+		
+			<li><a href="/tags/PPT/">PPT<span>1</span></a></li>
+		
+			<li><a href="/tags/CSS3/">CSS3<span>1</span></a></li>
+		
+			<li><a href="/tags/游戏/">游戏<span>1</span></a></li>
+		
+			<li><a href="/tags/粤语/">粤语<span>1</span></a></li>
+		
+			<li><a href="/tags/虚拟币/">虚拟币<span>1</span></a></li>
+		
+			<li><a href="/tags/maven/">maven<span>1</span></a></li>
+		
+			<li><a href="/tags/个人清单/">个人清单<span>1</span></a></li>
+		
+			<li><a href="/tags/windows10/">windows10<span>1</span></a></li>
+		
+			<li><a href="/tags/Word/">Word<span>1</span></a></li>
+		
+			<li><a href="/tags/Git/">Git<span>1</span></a></li>
 		
 		 
 		</ul>
@@ -243,15 +614,27 @@
 		
 			
 <div class="widget">
-  <h4>Posts recentes</h4>
+  <h4>Recent Posts</h4>
   <ul class="entry list-unstyled">
     
       <li>
-        <a href="/2017/12/01/我的第一篇文章/"  title="Introduce tag plugins in freemind." ><i class="fa fa-file-o"></i>我的第一篇文章</a>
+        <a href="/2017/12/04/04.和方骥一起学Excel/"  title="04.和方骥一起学Excel" ><i class="fa fa-file-o"></i>04.和方骥一起学Excel</a>
       </li>
     
       <li>
-        <a href="/2017/12/01/hello-world/" ><i class="fa fa-file-o"></i>Hello World</a>
+        <a href="/2017/12/02/测试/" ><i class="fa fa-file-o"></i></a>
+      </li>
+    
+      <li>
+        <a href="/2017/12/01/唔该晒/"  title="唔该晒" ><i class="fa fa-file-o"></i>唔该晒</a>
+      </li>
+    
+      <li>
+        <a href="/2017/12/01/06.趣学PPT：从0到PPT大神/"  title="06.趣学PPT：从0到PPT大神" ><i class="fa fa-file-o"></i>06.趣学PPT：从0到PPT大神</a>
+      </li>
+    
+      <li>
+        <a href="/2017/12/01/完美安装原装纯净windows10系统/"  title="用微软自带工具制作U盘启动盘，完美安装原装纯净windows10系统" ><i class="fa fa-file-o"></i>完美安装原装纯净windows10系统</a>
       </li>
     
   </ul>
@@ -286,7 +669,7 @@
   </div>
   <div class="container-narrow">
   <footer> <p>
-  &copy; 2017 周向前
+  &copy; 2017 boqi
   
       with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
 </p> </footer>
